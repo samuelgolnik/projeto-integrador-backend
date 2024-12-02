@@ -3,7 +3,9 @@ let lastUpdateTime;
 
 // Conectar ao banco de dados remoto
 const remoteClient = new Client({
-    host: '10.41.20.15',
+    //dentro-10.41.20.15
+    //fora-200.17.86.20
+    host: '200.17.86.20',
     port: 55432,
     database: 'santa_rosa',
     user: 'piinfra',
